@@ -1,0 +1,14 @@
+
+<p>Start editing to see some magic happen :)</p>
+
+<hr />
+
+<div *ngIf="show">
+  <app-autounsubscribe></app-autounsubscribe>
+</div>
+
+<hr />
+
+<button (click)="show = true">Show</button>
+<button (click)="show = false">Hide</button>
+<button (click)="newValue()">New value</button>
