@@ -10,7 +10,8 @@ export class AppComponent {
   name = 'Angular ' + VERSION.major + ' Auto-unsubscribe';
 
   show = true;
-
+  consoleData="";
+  
   constructor(public testeService: TesteService) {}
 
   newValue() {
